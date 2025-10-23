@@ -1,10 +1,46 @@
-<tr>   
-     <table border="2px" width="100%">
-        <body><table border="2px" width="100%"><center><b>Hotel Room Booking Form</b></center><br></br>
-            <tr>
-                <td<col><center>Full Name:</center></td>
-                <td<col><center>Email:</center></td>
-                <td<col><center>Check-out-date:</center></td>
-                <td<col><center>Room Type:</center></td>
-                <td<col><center>Number of Guests:</center></td>
-                <td<col><center>Special requests:</center></td>
+<!DOCTYPE html!>
+<html>
+    <head>
+        <title>Hotel Room Booking Form</title>
+        </head>
+        <body>
+            <h1 align="center">Hotel Room Booking form</h1>
+            <form action="#" method="post">
+                <fieldset><center>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for"email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for "phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br><br>
+                        <label for="check-in">Check-in Date:</label>
+                        <input type="date" id="check-in" name="check=in" required>
+                        <br><br>
+                        <label for="check-out">Check-out Date:</label>
+                        <input type="date" id="check-out" name="check-out" required>
+                        <br><br>
+                        <label for="room">Room Type:</label>
+                        <select id="room" name="room">
+                            <option value="single">Single Room</option>
+                            <option value="doubke">Double Room</option>
+                            <option value="suite">Suite</option>
+                            <option value="deluxe">Deluxe Room</option>
+                            </select>
+                        <br><br>
+                        <label for="guests">Number of Guests:</label>
+                        <input type="number" id="guests" name="guests" min="1" max="10" required>
+                        <br><br>
+                                    <label for="requests"><center>Special Requests</center></label>
+                                    <textarea id="requests" name="requests" rows="5" cols="40"></textarea>
+                                    </fieldset></center>
+                                    <br>
+                                    <!--Buttons-->
+                                    <button type="submit">Book Now</button>
+                                    <button type="reset">Reset Form</button>
+                                    </form>
+                                    </body>
+                                    </html>
+
