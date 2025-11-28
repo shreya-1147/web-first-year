@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    border: solid black 5px;
+    margin: 20px;
+    justify-content: space-around;
+    
+
+}
+.card
+{
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 20px 0px;
+    font-size: 150%;
+    text-align: center;
+    border: solid blue 2px;
+    box-shadow: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 2px 1px rgb(0 0 0 / 20%)
+}
+.id_logo{
+    display: flex;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    margin: auto;
+    background-color: rgb(35, 101, 224);
+    border-radius: 50%;
+    font-size: 100%;
+    color: rgb(151, 139, 139);
+    padding: 3px;
+    width: 100px;   /* same value */
+    height: 100px;  /* same value */
+    
+}
