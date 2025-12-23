@@ -18,7 +18,7 @@ h1 {
 
 /* Product Box styling */
 .product-box {
-    background-color: white;         /* White background */
+    background-color: white;       /* White background */
     width: 300px;                    /* Box width */
     margin: 0 auto;   /* Center the box horizontally */
     /* When you write margin: auto, the browser automatically calculates equal left and right spaces
